@@ -1,0 +1,29 @@
+# Dependency directories
+# This will ignore node_modules in the root and any subfolder
+**/node_modules/
+
+# Environment files
+# This ensures secrets from any service (auth, payments, etc.) are kept private
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Logs
+**/logs
+**/*.log
+**/npm-debug.log*
+
+# Build outputs
+**/dist/
+**/.next/
+**/out/
+**/build/
+
+# IDE/System files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
